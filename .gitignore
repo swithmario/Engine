@@ -1,0 +1,91 @@
+# Build artifacts
+build/
+Build/
+build-*/
+Build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.pch
+*.gch
+compile_commands.json
+Makefile
+*.wav
+.cache/
+build/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeUserPresets.json
+
+
+
+
+
+# IDE-specific files
+.cache/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj*
+*.xcworkspace/
+*.xcuserdata/
+
+# macOS specific
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+log/
+logs/
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Editor backup files
+*.bkp
+
+# External libraries not managed by Git submodules
+# If you manually download libraries into 'external/' and don't want to commit them,
+# uncomment the relevant lines. If using submodules, this is not needed for the submodule itself.
+# external/imgui/ # If not a submodule and you only want to track your integration code
+# external/glm/   # If not a submodule
+# external/sdl2/  # If not a submodule or system library
+# external/sdl2_mixer/ # If not a submodule or system library
+
+# Python virtual environments (if you use Python scripts for tools/build)
+venv/
+.venv/
+env/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# User-specific configuration (e.g., local ImGui settings if not portable)
+imgui.ini # Often user-specific layout, better to ignore and let it regenerate
+
+# Large binary files (if any) that are not essential assets or are generated
+# For example, if you had very large video test files or huge datasets.
+# Your primary assets (textures, models, sounds in assets/) ARE typically versioned.
+# large_generated_data/
